@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primary_text_color"> #ffffff</color>
+    
+    <!--Background color for the app bar -->
+    <color name="primary_color">#4b565c</color>
+
+    <!--Primary color shown in the status bar-->
+    <color name="primary_dark_color">#292f33</color>
+
+    <!--Background color for the attractions category -->
+    <color name="category_attractions">#dca083</color>
+
+    <!--Background color for the hotels category-->
+    <color name="category_hotel">#454847</color>
+    
+    <!--Background color for the restaurants category -->
+    <color name="category_restaurants">#205353</color>
+
+    <!--Background color for the vacation rentals category-->
+    <color name="category_rentals">#ae9a63 </color>
+
+</resources>

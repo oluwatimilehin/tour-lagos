@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tour Lagos</string>
+    <string name="category_attractions">Attractions</string>
+    <string name="category_vacation_rentals">Vacation Rentals</string>
+    <string name="category_restaurants">Restaurants</string>
+    <string name="category_hotels">Hotels</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.oluwatimilehin.tourlagos.MainActivity"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_attractions">
+    <TextView
+        style="@style/CategoryStyle"
+        android:text="@string/category_attractions"
+        android:background="?android:selectableItemBackground"
+        />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_rentals">
+    <TextView
+        style="@style/CategoryStyle"
+        android:text="@string/category_vacation_rentals"
+        android:background="?android:selectableItemBackground"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_restaurants">
+    <TextView
+        style="@style/CategoryStyle"
+        android:text="@string/category_restaurants"
+        android:background="?android:selectableItemBackground"
+        />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_hotel">
+    <TextView
+       style="@style/CategoryStyle"
+        android:text="@string/category_hotels"
+        android:background="?android:selectableItemBackground"/>
+    </FrameLayout>
+
+
+</LinearLayout>
