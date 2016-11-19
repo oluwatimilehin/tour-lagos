@@ -8,6 +8,6 @@ public class HotelsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_hotels);
+        setContentView(R.layout.information_list);
     }
 }

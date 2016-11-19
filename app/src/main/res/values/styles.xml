@@ -18,4 +18,8 @@
         <item name="android:textAppearance">?android:textAppearanceLarge</item>
     </style>
 
+    <style name="ListItemStyle">
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
 </resources>

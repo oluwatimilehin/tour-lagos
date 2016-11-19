@@ -21,4 +21,6 @@
     <!--Background color for the vacation rentals category-->
     <color name="category_rentals">#ae9a63 </color>
 
+    <color name="image_background">#e0e4e3</color>
+
 </resources>
