@@ -13,6 +13,7 @@
         android:background="@color/category_attractions">
     <TextView
         style="@style/CategoryStyle"
+        android:id="@+id/attractions"
         android:text="@string/category_attractions"
         android:background="?android:selectableItemBackground"
         />
@@ -24,6 +25,7 @@
         android:background="@color/category_rentals">
     <TextView
         style="@style/CategoryStyle"
+        android:id="@+id/rentals"
         android:text="@string/category_vacation_rentals"
         android:background="?android:selectableItemBackground"/>
     </FrameLayout>
@@ -34,6 +36,7 @@
         android:background="@color/category_restaurants">
     <TextView
         style="@style/CategoryStyle"
+        android:id="@+id/restaurants"
         android:text="@string/category_restaurants"
         android:background="?android:selectableItemBackground"
         />
@@ -45,6 +48,7 @@
         android:background="@color/category_hotel">
     <TextView
        style="@style/CategoryStyle"
+       android:id="@+id/hotels"
         android:text="@string/category_hotels"
         android:background="?android:selectableItemBackground"/>
     </FrameLayout>

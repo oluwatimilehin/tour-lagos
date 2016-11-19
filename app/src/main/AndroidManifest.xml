@@ -15,6 +15,18 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".AttractionsActivity"
+            android:label="Attractions">
+        </activity>
+        <activity android:name=".RentalsActivity"
+            android:label="Vacation Rentals">
+        </activity>
+        <activity android:name=".RestaurantsActivity"
+            android:label="Restaurants">
+        </activity>
+        <activity android:name=".HotelsActivity"
+            android:label="Hotels">
+        </activity>
     </application>
 
 </manifest>
