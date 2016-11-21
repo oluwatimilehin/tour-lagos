@@ -15,17 +15,37 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".AttractionsActivity"
-            android:label="Attractions">
+        <activity
+            android:name=".AttractionsActivity"
+            android:label="Attractions"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
         </activity>
-        <activity android:name=".RentalsActivity"
-            android:label="Vacation Rentals">
+        <activity
+            android:name=".RentalsActivity"
+            android:label="Vacation Rentals"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>>
         </activity>
-        <activity android:name=".RestaurantsActivity"
-            android:label="Restaurants">
+        <activity
+            android:name=".RestaurantsActivity"
+            android:label="Restaurants"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>>
         </activity>
-        <activity android:name=".HotelsActivity"
-            android:label="Hotels">
+        <activity
+            android:name=".HotelsActivity"
+            android:label="Hotels"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>>
         </activity>
     </application>
 
