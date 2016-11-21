@@ -27,6 +27,13 @@ public class Information {
         mImgResourceId = imgResourceId;
     }
 
+    public Information(String name, String address){
+        mName = name;
+        mAddress = address;
+    }
+
+
+
     public Information(String name, String address, String phoneNumber){
         mName = name;
         mAddress = address;
